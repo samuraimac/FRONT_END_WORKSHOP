@@ -1,0 +1,259 @@
+<!-- SAMPLE 1 -->
+<html>
+	<head>
+		<title>Example</title>
+	</head>
+	<body> <!-- This is a comment in HTML.  -->
+		<h1> This is a header! </h1>
+		<p>Paragraph 0 This is text inside the paragraph tag.</p>
+    
+    <p> Paragraph 1
+      Spacing doesn't matter in HTML, but it does help with readability regarding what elements
+			are inside other elements.
+      <b> For example, this is bold text inside the paragraph </b>
+    </p>  
+    
+		<img src="" alt="">
+	</body>
+</html>
+<!-- SAMPLE 1 END -->
+
+<!-- SAMPLE 2 -->
+<table>
+        <tr>
+            <th>Surname</th>
+            <th>Given name</th>
+            <th>Age</th>
+        </tr>
+</table>
+<!-- SAMPLE 2 END -->
+
+<!-- SAMPLE  -->
+<div>
+	<p>Paragraph 0 This is text inside the paragraph tag.</p>
+</div>
+<!-- SAMPLE 3 END -->
+
+<!-- SAMPLE 4 -->
+<tagname style="propertyname: value"> </tagname> <!-- THIS IS NOT ACTUAL HTML STYLE CODE. THIS IS JUST THE SYNTAX  -->
+<!-- SAMPLE 4 END -->
+
+<!-- SAMPLE 5 -->
+<html> 
+	<head>
+		<title>Example</title>
+    <!-- This is an in-line stylesheet -->
+    <style> 
+      p {
+        font-size: 20px;
+        font-weight: bold; 
+        color: red; 
+      }
+    </style>
+	</head>
+</html>
+<!-- SAMPLE 5 END -->
+
+<!-- SAMPLE 6 -->
+th, td{
+         /* width style   color */
+    border: 1px   solid black;
+}
+<!-- SAMPLE 6 END -->
+
+<!-- SAMPLE 7 -->
+
+table {
+    border-collapse: collapse;
+    width: 33%;
+}
+<!-- SAMPLE 7 END -->
+
+<!-- SAMPLE 8 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<!-- SAMPLE 8 END -->
+
+<!-- SAMPLE 9 -->
+
+.coltest1 {
+    background-color: lavenderblush;
+}
+
+.coltest2 {
+    background-color: lightskyblue;
+}
+
+<div class="container">
+       <div class="row">
+           <div class="col coltest1">
+                <p>Paragraph 0 This is the first paragraph that we made.</p>
+                <p>This is another paragraph</p>
+           </div>
+           <div class="col coltest2">
+               <p>Paragraph 1 This is another paragraph
+                   <b>You are a bold one.</b>
+               </p>
+           </div>
+      </div>
+ </div>
+<!-- SAMPLE 9 END -->
+
+<!-- SAMPLE 10 -->
+<div class="row">
+    <div class="col">
+        <h1 class="display-1 text-center">Here is the heading!</h1>
+    </div>
+</div>
+<!-- SAMPLE 10 END -->
+
+<!-- SAMPLE 11 -->
+        <div class="row">
+            <div class="col-lg coltest2">
+                <p>
+                    <pre>The p tag ignores line breaks.
+The pre tag reads line breaks and        whitespaces.
+                    </pre>
+                </p>
+            </div>
+            <div class="col-lg coltest1">
+                <blockquote class="blockquote">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <footer class="blockqoute-footer">Cicero</footer>
+                </blockquote>
+            </div>
+        </div>
+<!-- SAMPLE 11 END -->
+
+<!-- SAMPLE 12 -->
+<dl>
+                    <dt>Numbers</dt>
+                        <dd>- One</dd>
+                        <dd>- Two</dd>
+                        <dd>- Three</dd>  
+                    <dt>TikToks</dt>
+                        <dd>- Hit</dd>
+                        <dd>- Or</dd>
+                        <dd>- Miss</dd>
+                </dl>
+<!-- SAMPLE 12 END -->
+
+<!-- SAMPLE 13 -->
+<p class="text-muted">This text is muted.</p>
+<p class="text-primary">This text is important.</p>
+<p class="text-success">This text indicates success.</p>
+<p class="text-info">This text represents some information.</p>
+<p class="text-warning">This text represents a warning.</p>
+<p class="text-danger">This text represents danger.</p>
+<p class="text-secondary">Secondary text.</p>
+<p class="text-dark">This text is dark grey.</p>
+<p class="text-body">Default body color (often black).</p>
+<p class="text-light">This text is light grey (on white background).</p>
+<p class="text-white">This text is white (on white background).</p>
+<!-- SAMPLE 13 END -->
+
+<!-- SAMPLE 14 -->
+<button type="button" class="btn">Basic</button>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-dark">Dark</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-link">Link</button>
+
+<button type="button" class="btn btn-outline-primary">Primary</button>
+<button type="button" class="btn btn-outline-secondary">Secondary</button>
+<button type="button" class="btn btn-outline-success">Success</button>
+<button type="button" class="btn btn-outline-info">Info</button>
+<button type="button" class="btn btn-outline-warning">Warning</button>
+<button type="button" class="btn btn-outline-danger">Danger</button>
+<button type="button" class="btn btn-outline-dark">Dark</button>
+<button type="button" class="btn btn-outline-light text-dark">Light</button>
+<!-- SAMPLE 14 END -->
+
+<!-- SAMPLE 15 -->
+        <div class="row">
+            <div class="col">
+                <form action="#">
+                    <div class="form-group">
+                        <label for="usr">Name:</label>
+                        <input type="text" class="form-control" id="usr" name="username">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Password:</label>
+                        <input type="password" class="form-control" id="pwd" name="password">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+<!-- SAMPLE 15 END -->
+
+<!-- SAMPLE 16 -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">
+            <img src="https://images.emojiterra.com/twitter/v11/512px/1f914.png" alt="logo" style="width:40px;">
+        </a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Dropdown link
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item" href="#">Link 2</a>
+                    <a class="dropdown-item" href="#">Link 3</a>
+                </div>
+            </li>
+            <form class="form-inline" action="/action_page.php">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">@</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Username">
+                </div>
+                <button class="btn btn-success" type="submit">Search</button>
+            </form>
+        </ul>
+    </nav>
+<!-- SAMPLE 16 END -->
+
+<!-- SAMPLE 17 -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Modal Heading</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        Modal body..
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- SAMPLE 17 END -->
